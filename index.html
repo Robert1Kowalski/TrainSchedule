@@ -1,42 +1,102 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
 
+<head>
+    <!-- //Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- //Css -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- //Moment -->
+    <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>
+</head>
 <title> Train Schedule</title>
-//Bootstrap
-//Javascript
-//Css
-//Firebase
-//Moment
 
-//main container 
-    //jumbotron for header 
+<div class="row">
+    <div class="col-sm-12">
+        <br>
+        <div class="panel panel-success">
+            <div class="panel heading" id="heading">
+                <h3 class="panel-title">
+                    <strong>
+                    <i class="fa fa-list-alt"></i> Current Train Schedule <span
+                            class="glyphicon glyphicon-hourglass">Current-Time:<i id="current-time"></i>
+                    </strong>
+                    </span>
+                </h3>
+            </div>
 
-    //row for train schdeule 
-        //first panel is handling train Schedule
-        //Table
-            //Train Name
-            //Destination
-            //Frequency
-            //Next Arrival 
-            //Minutes Away
+            <div class = "panel-body">
+
+                <table class = "table table=striped" id = "schedule">
+
+                <thread>
+                    <tr>
+                        <th>Train Name</th>
+                        <th>Destination</th>
+                        <th>Frequency (min)</th>
+                        <th>Next Arrival</th>
+                        <th>Minutes Away</th>
+                    </tr>
+                </thread>
+                <tbody>
+                    <tr>
+                        <td> Polar Express</td>
+                        <td>Denver</td>
+                        <td>30</td>
+                        <td>7:00pm</td>
+                        <td>6</td>
+                    </tr>
+                 </tbody>
+                </table>
+           </div>
+        </div>
+    
+    
+    
+    
+    <div class = "row"></div>
+    <div class = "col-sm-12">
+        <br>
+
+        <div c;ass = "panel panel -success">
+            <div class = "panel-heading">
+                <h3 class = "panel-title"><strong><i class = "fa fa-list-alt"></i>Add a train</strong></h3>
+            </div>
+            <div class = "panel-body"></div>
+        </div>
+    </div>
+    
+    </div>
+</div>
+</div>
+<!-- //jumbotron for header
+
+//row for train schdeule
+//first panel is handling train Schedule
+//Table
+//Train Name
+//Destination
+//Frequency
+//Next Arrival
+//Minutes Away
 
 
-            //Trenton Express
-            //Trenton
-            //25
-            //5:35
-            //10
+//Trenton Express
+//Trenton
+//25
+//5:35
+//10
 
-    //row for adding a train
-            //First panel handles add paramters 
-            //html form for handling inputs
-            //text box for capturing the input term
-            //Caputre destination 
-            //Capture first train time
-            //Capture Frequency
-//final submit button 
+//row for adding a train
+//First panel handles add paramters
+//html form for handling inputs
+//text box for capturing the input term
+//Caputre destination
+//Capture first train time
+//Capture Frequency
+//final submit button -->
 
 
 
