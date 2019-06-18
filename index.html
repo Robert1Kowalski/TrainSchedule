@@ -10,6 +10,32 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <!-- //Moment -->
     <script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.2.1/moment.min.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDs48iyvzn8mRjUPVTzf5MDJzYVHnTPt_Q",
+    authDomain: "trainschedule-db7cb.firebaseapp.com",
+    databaseURL: "https://trainschedule-db7cb.firebaseio.com",
+    projectId: "trainschedule-db7cb",
+    storageBucket: "trainschedule-db7cb.appspot.com",
+    messagingSenderId: "704800903028",
+    appId: "1:704800903028:web:70e0db62c048588d"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
 </head>
 <title> Train Schedule</title>
 <body>
@@ -98,6 +124,9 @@
     </div>
 </div>
 <script type = "text/javascript" src = "assets/javascript/app.js"></script>
+
+
+
 </div>
 </body>
 </html>
